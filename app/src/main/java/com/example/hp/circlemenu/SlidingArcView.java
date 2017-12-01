@@ -15,10 +15,6 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 作者： quietUncle on 2016/2/28
- * 项目地址:https://github.com/quietUncle/androidDemo
- */
 public class SlidingArcView extends ViewGroup {
     public static String TAG = "QTView";
     private String titles[] = {"游戏互动", "海外授信","认购中心", "财务中心", "安全中心", "关于我们", "网上商城"};
