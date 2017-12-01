@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000">
+    <!--android:fitsSystemWindows="true"-->
+
+    <com.example.hp.circlemenu.SlidingArcView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/image_comein_btn"-->
+    <!--android:layout_width="@dimen/x30"-->
+    <!--android:layout_height="@dimen/y250"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="@dimen/y100" />-->
+
+    <ImageView
+        android:id="@+id/image_comein_btn"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/home_money_btn" />
+
+    <ImageView
+        android:id="@+id/image_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/main_buy_center_nor_s"
+        android:visibility="gone"/>
+
+
+
+</RelativeLayout>
